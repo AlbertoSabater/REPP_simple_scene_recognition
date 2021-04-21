@@ -7,3 +7,14 @@ For the experiments, [Yolov3 + REPP](https://github.com/AlbertoSabater/Robust-an
 To perform the Simple scene recognition and render a final video with the detections and classifications results, execute:
 
 `python REPP_scene_recognition.py  --preds_filename path_to_coco_predictions.json --min_score 0.1 --video_filename path_to_original_video.mp4`
+
+
+# Dependencies
+
+* matplotlib 3.2.1
+* opencv-python 4.4.0
+* Pillow 6.2.1
+* skvideo
+* colorsys
+* pandas
+* numpy
